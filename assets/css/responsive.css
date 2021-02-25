@@ -6,6 +6,10 @@
         --header-height:70px;
         --navbar-heigth:0px;
     }
+    .header__mobile-menu-bars
+    {
+        display:block;
+    }
     .hide-on-mobile-tablet {
         display: none;
     }
@@ -55,7 +59,7 @@
         display: none;
     }
     .header__cart {
-        width: 74px;
+        width: unset;
         text-align: right;
     }
     .panation__item {
@@ -64,6 +68,11 @@
     }
     .container__break{
         padding-top: 20px;
+    }
+    .header__mobile-menu-bars
+    {   
+        margin-right: 16px;
+
     }
 }
 /* Mobile */

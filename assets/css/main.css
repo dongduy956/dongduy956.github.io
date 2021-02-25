@@ -466,6 +466,7 @@
     font-weight: 600;
     color: var(--white-color);
     transition: all linear .3s;
+    display: none;
 }
 .header-menu-mobile
 {
