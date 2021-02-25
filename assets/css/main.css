@@ -460,6 +460,106 @@
     margin: 0 8px;
     justify-content: space-around;
 }
+.header__mobile-menu-bars
+{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--white-color);
+    transition: all linear .3s;
+}
+.header-menu-mobile
+{
+    
+    min-width:320px ;
+    position: fixed;
+    top:var(--header-search-height) ;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0,0,0,0.15);
+    z-index: 3;
+    padding:4px;
+    transform: translateX(-100%);
+    transition: all linear .3s;
+    opacity: 0;
+}
+.header-menu-mobile-icon
+{
+    font-size: 3rem;
+    margin-left: auto;
+    font-weight: 600;
+    color: rgba(0,0,0,0.5);
+}
+#input-checkbox-menu-bar:checked ~ .overlay
+{
+    display: block;
+}
+#input-checkbox-menu-bar:checked ~ .header__mobile-menu-bars
+{
+    color: var(--black-color);
+}
+#input-checkbox-menu-bar:checked ~ .header-menu-mobile
+{
+    opacity: 1;
+    transform: translateX(0);
+}
+.header-menu-mobile__bars
+{
+    list-style: none;
+    padding-left: 0;    
+}
+.header-menu-mobile__link
+{
+    display: block;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-decoration: none;
+    line-height: 2rem;
+    padding:8px 0;
+}
+.header-menu-mobile__group-avatar
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding:4px 0;
+}
+.overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 2;
+    animation: fadeIn linear .5s;
+}
+.menu-mobile__icon
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 16px;
+    margin-left: 4px;
+}
+.header-menu-mobile__user-name
+{
+    font-size: 3rem;
+    color:var(--text-color);
+    font-weight: 500;
+    margin-left: 24px;
+}
+.header-menu-mobile__avatar
+{
+    height: 40px;
+    width: 40px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+}
+
+
 #input-checkbox:checked ~ .header__search
 {
     display: flex;
