@@ -6,7 +6,7 @@ iconMenu.onclick= function(){
     menu.classList.add('fadeIn')   
     mobileTabletMenu.classList.add('fadeIn')
     overlayMobileTalet.classList.add('fadeIn');
-    overlayMobileTalet.style.zIndex=2;
+    overlayMobileTalet.style.zIndex=2;   
 }
 var iconClose=document.querySelector('.header__showMenu-icon-close');
 var iconCloseMobile=document.querySelector('.header__nav-mobile-tablet-icon-close')
