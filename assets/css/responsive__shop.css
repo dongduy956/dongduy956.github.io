@@ -1,0 +1,35 @@
+/* tablet pro */
+@media (max-width:1300px)  and (min-width:1024px){
+    .header__header{
+        top:30px;
+    }
+}
+/* mobile & tablet */
+@media (max-width:1023px)
+{
+ .header__header{
+     top:59px;
+ }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px)
+{
+   
+}
+/* Mobile <= 320px */
+@media (max-width:320px)
+{
+
+}
+/* mobile */
+@media (max-width:739px)
+{
+    .header__header{
+        left: 13px;
+    font-size: 5rem;
+    }
+    .m-t-24-mobile{
+        margin-top: 24px;
+    }
+}

@@ -1,0 +1,57 @@
+.header{
+    background-image: url(../img/anh1.jpg);
+    min-height: 310px;
+    background-position: center;
+    overflow: unset;
+}
+.header__header{
+    position: relative;
+    color: white;
+    font-size: 6rem;
+    top: 100px;
+    left: 10%;
+    text-shadow: 0 2px 0px rgba(0,0,0,0.7);
+    line-height: 6rem;
+}
+.container{
+    margin-top: 100px;
+}
+.container__item{
+    text-decoration: none;
+    display: block;
+    color: #666;
+    padding-bottom: 8px;
+}
+.color-icon{
+    color: rgb(255, 255, 0,0.8);
+}
+.container__item-title{
+    margin: 12px 4px;
+    font-weight: 300;
+}
+.container__item-group{
+    margin: 0 4px;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    display: block;
+    color: #ccc;
+}
+.m-t-24{
+    margin-top: 24px;
+}
+.container__item-price{
+    margin: 0 4px;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 12px;    
+}
+.container__item-link{
+    color: #555;
+    background:white;
+    border-radius: unset;
+    border:1px solid #f1f1f1;
+    margin: 22px 4px 0 4px;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
