@@ -72,4 +72,13 @@
         padding-left: 4px;
         padding-right: 4px;
     }
+    .margin-l-m-20{
+        margin-left: 20px;
+    }
+    .header__search-right-check{
+        zoom: 1.2;
+    }
+    .header__search-right-group1{
+        align-items: center;
+    }
 }
