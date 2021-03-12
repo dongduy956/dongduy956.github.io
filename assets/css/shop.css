@@ -21,6 +21,7 @@
     display: block;
     color: #666;
     padding-bottom: 8px;
+    position: relative;
 }
 .color-icon{
     color: rgb(255, 255, 0,0.8);
@@ -46,6 +47,7 @@
     margin-bottom: 12px;    
 }
 .container__item-link{
+    font-size: 1.6rem;
     color: #555;
     background:white;
     border-radius: unset;
@@ -54,4 +56,32 @@
     padding: 8px 12px;
     text-transform: uppercase;
     text-align: center;
+}
+.container__item-sale{
+    position: absolute;
+    padding: 12px;
+     
+    font-size: 2rem;
+    color: white;
+    top: 0;
+    right: 0;
+    display: block;
+    text-transform: uppercase;
+}
+.container__item-sale--color{
+    background: #1bbc9b;
+    animation: anime linear .8s infinite;
+}
+.container__item-sale.container__item-sale--color::before{
+border-color: transparent #1bbc9b transparent #1bbc9b;
+}
+.container__item-sale::before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    right: 0;
+    border-width: 0 35px 11px;
+    border-color: transparent;
+    top: 100%;
+    left: 0;    
 }

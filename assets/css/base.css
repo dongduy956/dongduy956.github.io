@@ -29,3 +29,8 @@ html
     padding:10px;
     background-color:#b27cb8;
 }
+
+@keyframes anime{
+    0%{filter: brightness(1);}
+    100%{filter: brightness(1.2);}
+}

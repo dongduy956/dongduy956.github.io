@@ -58,6 +58,7 @@
     right: 5px;
     text-align: center;
     line-height: 1.5rem;
+    animation: anime .8s linear infinite;
 }
 .header{
     background-image: url(../img/anh-nen.jpg);
