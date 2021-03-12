@@ -1,0 +1,70 @@
+.header{
+    background-image: url(../img/aboutus-logo.jpg);
+   
+}
+.container__about-title{
+    font-size: 5rem;
+    line-height: 5rem;
+    text-align: right;
+    color: #555;
+}
+.container__para{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin:20px;
+}
+.margin-12-3{
+    margin: 0 12.3%;
+}
+.container__boat-img{
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    background-image: url(../img/boat.jpeg);
+    margin-top: 80px;
+    background-size: contain;
+    position: relative;  
+}
+.container__boat-group{
+    left: 37.5%;
+    transform: translate(-50%,-50%);
+    top:50%;
+    border: white 5px solid;
+    border-radius: 50%;
+     position: absolute; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100px;
+     width: 100px;
+    cursor: pointer;  
+}
+.container__boat-group:hover{
+    opacity: .5;
+}
+.container__icon{
+    font-size: 6rem;   
+    color: white;
+    transform: translateX(4px);
+}
+.container__group-video{    
+    position: absolute; top: 5%; height: 100%; width: 90%;
+    left: -5%;
+    z-index: -1;
+    opacity: 0;
+    transition: all .6s linear;  
+}
+.container__icon-close{
+    position: absolute;
+    right: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+embed{
+    position: absolute;
+    height: 100%;
+    width: 95%;    
+}
+.overlay{
+    /* opacity: 1;
+    z-index: 1; */
+}

@@ -1,7 +1,7 @@
 .header{
     background-image: url(../img/anh1.jpg);
     min-height: 310px;
-    background-position: center;
+    background-position: 0 -300px;
     overflow: unset;
 }
 .header__header{

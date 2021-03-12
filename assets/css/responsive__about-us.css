@@ -1,0 +1,33 @@
+/* tablet pro */
+@media (max-width:1300px)  and (min-width:1024px){
+
+}
+/* mobile & tablet */
+@media (max-width:1023px)
+{ 
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px)
+{
+   
+}
+/* Mobile <= 320px */
+@media (max-width:320px)
+{
+
+}
+/* mobile */
+@media (max-width:739px)
+{
+    .container__icon-close{
+        right: -7px;
+        font-size: 1.8rem;
+    }
+    .container__about-title{
+        text-align: left;
+        padding: 0 16px;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
