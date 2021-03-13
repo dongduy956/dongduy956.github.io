@@ -71,13 +71,16 @@
     .container__destion{
         padding: 12px 0;
     }
+    .container__member-link{
+        display: block;
+    }
 }
 
 /* Mobile <= 400px */
 @media (max-width:400px)
 {
     .container__intro-group{
-        margin-bottom: 2220px;
+        margin-bottom: 2280px;
     }
 }
 /* mobile <=320px */
