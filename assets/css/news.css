@@ -1,0 +1,78 @@
+.header{
+    background-image: url(../img/parallax-3.jpg);
+    background-position:  center;
+}
+.container__new-img{
+    height: 100%;  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container__background-color1{
+    background-color: #1bbc9b;
+        
+}
+.container__background-color2{
+    background-color: #14b9d5;
+        
+}
+.container__new-body.container__background-color1,.container__new-body.container__background-color2{
+    height: 100%;
+    color: white;
+}
+.m-bt-24{
+    margin-bottom: 24px;
+}
+.container__new-body{
+    padding: 24px 20px;
+    color:#444;
+}
+.container__new-p{
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.container__new-title{
+    margin-bottom: 16px;
+    font-size: 2.7rem;
+    line-height: 3rem;
+}
+.container__new-para{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 16px;
+}
+.container__new-link{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+.container__new-link--color1{
+    background-color: #ba71da;
+    color:white;
+}
+.container__new-link--color2{
+    background-color: #f76570;
+    color: white;
+}
+.container__background-color1 .container__new-link{
+    color:#1bbc9b;
+}
+.container__background-color2 .container__new-link{
+    color:#14b9d5;
+}
+.container__background-color1 .container__new-para,.container__background-color2 .container__new-para,
+.container__background-color1 .container__new-p,.container__background-color2 .container__new-p{
+    color:rgba(255, 255, 255,0.85);
+}
+.container__new-border{
+    border: 1px solid #efefef;
+}
+.container__new-border .container__new-para,
+.container__new-border .container__new-p{
+    color:#888;
+}
+.container__new-order{
+    order: 2;
+}

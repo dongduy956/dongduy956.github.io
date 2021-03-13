@@ -74,6 +74,10 @@
     .container__member-link{
         display: block;
     }
+    .container__member-group{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
 }
 
 /* Mobile <= 400px */
