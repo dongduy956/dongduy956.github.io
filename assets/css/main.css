@@ -69,7 +69,7 @@
     background-position: center;
     display: flex;
     overflow: hidden;
-
+    transition: all .4s linear;
 }
 .header__nav{
     display: flex;

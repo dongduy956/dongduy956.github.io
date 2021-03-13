@@ -23,6 +23,7 @@
     margin-top: 80px;
     background-size: contain;
     position: relative;  
+    margin-bottom: 50px;
 }
 .container__boat-group{
     left: 37.5%;
@@ -64,7 +65,198 @@ embed{
     height: 100%;
     width: 95%;    
 }
-.overlay{
-    /* opacity: 1;
-    z-index: 1; */
+.container__intro-group{
+    background: url(../img/parallax-15.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 550px;
+    transition: all .4s ease-in;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+    margin-bottom: 500px;
+}
+.container__intro-group-title{
+    max-width: 570px;
+    margin-right: 150px;
+    margin-top: -140px;
+}
+.container__intro-title{
+    font-size: 6rem;
+    line-height: 6rem;
+    margin-bottom: 28px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+
+}
+.container__intro-para{
+    line-height: 3rem;
+    font-size: 2rem;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+    text-align: center;
+}
+.container__intro-link{
+    display: inline-block;
+    font-size: 2rem;
+    background: #f3a46b;
+    line-height: 50px;
+    min-width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-top: 32px;
+}
+.container__member-group{
+    text-align: center;
+    box-shadow: 0 0 4px 0px rgb(0 0 0 / 15%);
+    padding-bottom: 12px;
+}
+.container__member-img{
+    width: 100%;
+}
+.container__member-title{
+    margin: 24px 0 12px;
+    font-size: 3.3rem;
+    color: #555;
+    line-height: 3.3rem;
+}
+.container__member-p{
+    font-size: 1.5rem;
+    color: #777;
+    line-height: 1.5rem;
+}
+.container__member-para{
+    margin: 16px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #666;
+}
+.container__member-link{
+    color: #444;
+    text-transform: uppercase;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    line-height: 30px;
+}
+.position-ab{
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container__money-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    margin-bottom: 8px;
+
+}
+.container__money-title-title{
+    color: #444;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+.container__money-title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: dotted #f1f1f1;
+    top: 73%;
+    z-index: -1;
+}
+.container__money-title-price{
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: bold;
+}
+.container__money-para{
+    display: flex;
+    justify-content: space-between;
+}
+.container__money-group + .container__money-group{
+margin-top: 24px;
+}
+.container__money-para-para{
+    font-size: 1.5rem;
+    color: #888;
+}
+.container__money-para-new{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 4px 8px;
+    color: white;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+
+}
+.container__money-para-new--color1{
+background: #14b9d5;
+animation: anime 1s linear infinite;
+}
+
+.container__money-para-new--color2{
+background: #f76570;
+animation: anime 1s linear infinite;
+}
+
+.container__money-para-new--color3{
+background: #1bbc9b;
+animation: anime 1s linear infinite;
+}
+
+.container__money-para-new--color4{
+background: #f3a46b;
+animation: anime 1s linear infinite;
+}
+
+.container__money-para-new--color5{
+background: #ffd205;
+animation: anime 1s linear infinite;
+}
+
+.container__money-hide{
+    display: none;
+}
+.container__money-para-hours{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: #777;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.container__destion{
+    background: url(../img/p-10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height: 310px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+.container__destion-group{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+   
+}
+.container__destion-num{
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: bold;
+
+}
+.container__destion-title{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 12px;
+    display: block;
+    letter-spacing: 1.5px;
 }
