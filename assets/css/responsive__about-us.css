@@ -73,6 +73,7 @@
     }
     .container__member-link{
         display: block;
+        font-size: 2rem;
     }
     .container__member-group{
         padding-left: 4px;
