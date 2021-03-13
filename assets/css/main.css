@@ -204,7 +204,7 @@
 }
 .header__nav-mobile-tablet-sub-list
 ,.header__nav-mobile-tablet-sub-link-list{
-    
+    display: none;
     list-style: none;
 }
 .header__nav-mobile-tablet-sub-item{
@@ -481,10 +481,10 @@ margin-right: 2px;
     list-style: none;    
     width: 200px;
     top:100%;
-    display: none;
+    display: none !important;
     border-radius: 2px;
     box-shadow:0 0 5px 2px  rgb(255, 255, 255,0.5);
-    z-index: 3;
+    z-index: 3;    
 }
 
 

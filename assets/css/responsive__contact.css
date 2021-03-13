@@ -1,0 +1,45 @@
+/* tablet pro */
+@media (max-width:1300px)  and (min-width:1024px){
+
+}
+/* mobile & tablet */
+@media (max-width:1023px)
+{    
+    .container__left-send{
+        margin-bottom: 40px;
+    }
+    .border-bt::before{
+        right: 0;
+        display: none;
+    }
+    
+   
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px)
+{  
+}
+@media (max-width:380px)
+{  
+}
+
+/* mobile */
+@media (max-width:739px)
+{
+    .container__right-num{
+        font-size: 5rem !important;
+        line-height: 5rem !important;
+    }
+}
+
+/* Mobile <= 400px */
+@media (max-width:400px)
+{
+ 
+}
+/* mobile <=320px */
+@media (max-width:320px)
+{
+   
+}
