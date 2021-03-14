@@ -294,6 +294,7 @@
     width: 100%;
     background-color: #ffd105;    
     position: absolute;
+    animation: anime .8s linear infinite;
 }
 .header__container--thailand{
     background: linear-gradient(90deg,#14bdd0,#38dcbd);
@@ -612,6 +613,7 @@ width: 100%;
     z-index: -1;
     position: absolute;
     background: #ba71da;
+    animation: anime .8s linear infinite;
 }
 .header__container-search-title p{
     font-size: 2.3rem;
@@ -719,6 +721,7 @@ width: 100%;
     bottom: 13%;
     background: #1bbc9b;
     z-index: -1;
+    animation: anime .8s linear infinite;
 }
 .your-next{
     background-image: url(../img/YOURNEXT.jpg);
@@ -753,6 +756,7 @@ width: 100%;
     bottom: 10%;
     background:#f76570;
     z-index: -1;
+    animation: anime .8s linear infinite;
 }
 .your-next__btn{
     margin-left: -120px;
@@ -794,6 +798,7 @@ cursor: pointer;
     background: #14b9d5;
     bottom:10%;
     z-index: -1;
+    animation: anime .8s linear infinite;
 }
 
 .container__book-para{

@@ -1,4 +1,4 @@
-var icon=document.querySelector('.container__boat-img')
+var icon=document.querySelector('.container__boat-group')
 var video=document.querySelector('.container__group-video')
 var iconclose=document.querySelector('.container__icon-close')
 console.log(iconclose)
@@ -26,6 +26,9 @@ var functionClose=function(){
     })
 }
 overlay.onclick=function(){
+    menu.classList.remove('fadeIn')  
+    overlayMobileTalet.classList.remove('fadeIn')
+    overlayMobileTalet.style.zIndex=-1;        
     functionClose();
    
 }

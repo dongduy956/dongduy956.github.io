@@ -40,6 +40,7 @@
     position: absolute;
     top: 78%;
     z-index: -1;
+    animation: anime .8s linear infinite;
 }
 .header__search-medium{
     background: white;
