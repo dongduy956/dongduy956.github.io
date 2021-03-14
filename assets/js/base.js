@@ -14,6 +14,7 @@ var iconCloseMobile=document.querySelector('.header__nav-mobile-tablet-icon-clos
 iconCloseMobile.onclick=function(e){
     mobileTabletMenu.classList.remove('fadeIn')
     overlayMobileTalet.classList.remove('fadeIn')
+    overlayMobileTalet.style.opacity=0;    
     overlayMobileTalet.style.zIndex=-1;
     e.stopPropagation();
 }
@@ -27,6 +28,7 @@ iconClose.onclick= function(e){
 overlayMobileTalet.onclick= function(e){
     mobileTabletMenu.classList.remove('fadeIn')
     overlayMobileTalet.classList.remove('fadeIn')
+    overlayMobileTalet.style.opacity=0;    
     menu.classList.remove('fadeIn')
     overlayMobileTalet.style.zIndex=-1;
     e.stopPropagation();

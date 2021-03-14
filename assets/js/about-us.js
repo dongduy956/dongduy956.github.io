@@ -26,7 +26,8 @@ var functionClose=function(){
     })
 }
 overlay.onclick=function(){
-    menu.classList.remove('fadeIn')  
+    menu.classList.remove('fadeIn')
+    mobileTabletMenu.classList.remove('fadeIn')
     overlayMobileTalet.classList.remove('fadeIn')
     overlayMobileTalet.style.zIndex=-1;        
     functionClose();
