@@ -71,8 +71,8 @@
         width: 100%;
     }
     .header__content-title{
-        font-size: 4rem;
-        line-height: 4rem 
+        font-size: 3rem;
+        line-height: 3rem 
     }
     .owl-nav{
         display: none !important;
@@ -157,6 +157,7 @@ font-size: 2rem;
 {
     .contact{
         left: 82vw;
+        top:75vh;
     }
     .container__delivery-group h1,.container__delivery-group-item p{
         font-size: 2rem ;
