@@ -132,7 +132,10 @@ margin-left: 12px;
     background: #ccc;
     border-top:1px solid #ccc ;
    
-    display: none;
+    transform: scale(1,0);
+    transition: all .3s linear;
+    opacity: 0;
+    transform-origin: 100% 0;
 }
 
 .menu__mobile-item:hover a{
@@ -167,7 +170,8 @@ margin-left: 12px;
 }
 
 .menu__icon:hover +.menu__mobile{
-    display: block;
+   transform: scale(1);
+   opacity: 1;
 }
 .menu__icon{
     display: none;
